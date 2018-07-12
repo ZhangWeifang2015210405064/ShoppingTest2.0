@@ -1,0 +1,304 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-19 16:09:22
+ * @version $Id$
+ */
+
+.return_bar {
+	margin-top: 20px;
+}
+
+
+.warning {
+	font-weight: 400;
+	font-style: normal;
+	color:#D81E06;
+	text-align: left;
+	background-color: #ffc0cb;
+}
+
+.goods_item1 {
+	background-color: rgba(242,242,242,1);
+	border: none;
+	border-radius: 5px;
+	width: 850px;
+	height: 380px;
+	margin-top: 20px;
+}
+
+.big_goods_img {
+	
+	height: 360px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+}
+
+.big_goods_img img {
+	width: 360px;
+	height: 300px;
+}
+
+.goods_info {
+	padding-top: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.goods_info_title {
+	font-weight: 700;
+	font-style: normal;
+	font-size: 32px;
+	text-align: left;
+	height: 45px;
+	overflow: hidden;
+}
+
+.goods_info_intro {
+	margin-top: 20px;
+	font-weight: 400;
+	font-style: normal;
+	color: #333333;
+	font-size: 18px;
+	width: 420px;
+	height: 70px;
+	overflow: hidden;
+}
+
+.goods_price {
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.goods_price img {
+	float: left;
+}
+
+.goods_price p {
+	float: left;
+	font-size: 20px;
+	color: #FFCC00;
+	margin-left: 5px;
+}
+
+.goods_ensure {
+	margin-left: 10px;
+	margin-top: 10px;
+	height: 40px;
+	line-height: 40px;
+}
+
+.goods_ensure img{
+	float: left;
+}
+
+.goods_ensure p {
+	float: left;
+	font-size: 20px;
+	color: #6699CC;
+	margin-left: 5px;
+}
+
+.goods_ensure span {
+	float: left;
+	color: #868686;
+}
+
+.goods_info_button_group {
+	margin-top: 20px;
+}
+
+.button_type {
+	width: 120px;
+	height: 40px;
+	background-color: rgba(102,153,204,1);
+	border-radius: 5px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 40px;
+	font-size: 18px;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+
+
+.goods_item2 {
+	background-color: rgba(242,242,242,1);
+	border: none;
+	border-radius: 5px;
+	height: 380px;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.goods_item2_intro {
+	height: 33.3%
+}
+
+
+/*分享框*/
+
+.share-box {
+	width: 378px;
+
+}
+
+.input_url {
+	margin-top: 30px;
+	margin-left: 35px;
+}
+
+.input_url input {
+	margin-left: 10px;
+	width: 240px;
+	height: 40px;
+	font-size: 20px;
+}
+
+.btn_understand {
+	margin-top: 10px;
+	margin-left: 120px;
+
+	width: 140px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgba(102, 153, 204,1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.btn_copy p {
+	margin-top: 10px;
+	margin-left: 100px;
+	cursor: pointer;
+	width: 112px;
+}
+
+.btn_copy p:hover {
+	text-decoration: underline;
+	color: rgba(102, 153, 204,1);
+}
+
+/*分享框*/
+/*购买提示*/
+.purchase_hints_box {
+
+}
+
+.balance_warning {
+	
+}
+
+.balance_warning_p {
+	margin-top: 20px;
+	margin-left: 85px;
+	height: 50px;
+}
+
+.balance_warning_p img {
+	float: left;
+}
+
+.balance_warning_p p {
+	float: left;
+	font-weight: 700;
+	font-style: normal;
+	color: #D81E06;
+	font-size: 32px;
+	text-align: left;
+}
+
+.balance_intro  {
+	margin-top: 10px;
+	margin-left: 120px;
+	float: left;
+	height: 20px;
+}
+
+
+.balance_intro p {
+	float: left;
+	width: 70px;
+	text-align: center;
+}
+
+.balance_intro span {
+	float: left;
+}
+
+.balance_intro img {
+	float: left;
+}
+
+.balance_warning_btn {
+	margin-top: 20px;
+	margin-left: 110px;
+	float: left;
+	width: 140px;
+	height: 40px;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	background-color: rgba(102, 153, 204,1);
+	border-radius: 5px;
+	cursor: pointer;
+}
+/*购买提示*/
+
+/*收藏提示*/
+.sucess_collect_box {
+	box-sizing: border-box;
+	width: 378px;
+	height: 192px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.span_collect_success {
+	width: 318px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.span_collect_success span {
+	font-weight: 700;
+	color: #6699CC;
+	font-size: 24px;
+	text-align: center;
+}
+
+.have_collect_box {
+	box-sizing: border-box;
+	width: 378px;
+	height: 192px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.span_have_success {
+	width: 318px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.span_have_success span {
+	font-weight: 700;
+	color: #6699CC;
+	font-size: 24px;
+	text-align: center;
+}
+/*收藏提示*/
+

@@ -1,0 +1,422 @@
+@charset "UTF-8";
+/**
+ * 
+ * @authors Your Name (you@example.org)
+ * @date    2018-05-09 21:13:03
+ * @version $Id$
+ */
+ 
+.guide{
+	box-sizing: border-box;
+	padding:5px 100px 5px 100px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 70px;
+	background: #6699cc;
+	justify-content: space-between;
+}
+
+.guide-content{
+	display: flex;
+	
+}
+
+.guide a{
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 16px;
+	font-family: normal;
+	line-height: normal;
+}
+
+.guide span{
+	color: #ffffff;
+	opacity: 1;
+	margin: 0 0 0 20px;
+	cursor: pointer;
+	font-size: 16px;
+	font-family: normal;
+	line-height: normal;
+}
+
+.guide i{
+	color:white;
+	font-size: 16px;
+	
+}
+
+.guide-search{
+	margin:0 0 0 20px;
+}
+
+.guide-search input {
+	width: 173px;
+	height: 21px;
+}
+
+
+
+
+.personal_body {
+	margin-top: 20px;
+}
+
+.personal_body_bar {
+	
+}
+
+.personal_body_bar span {
+	font-size: 20px;
+}
+
+.bar_be_selected {
+	color: #ffffff;
+	background-color: #6699cc;
+}
+
+.personal_body_bar_item {
+	height: 60px;
+	border: 1px solid #6699cc;
+	text-align: center;
+	line-height: 60px;
+	cursor: pointer;
+}
+
+#collection_center {
+	border-left: 0px;
+	border-right: 0px;
+}
+
+
+/* 主体部分 */
+.main_content {
+	text-align: center;
+	margin-top: 20px;
+	padding: 10px;
+	height: 450px;
+}
+
+.big_head {
+	height: 380px;
+	background-color: #f2f2f2;
+	border: none;
+}
+
+.big_head img {
+	width: 80%;
+	height: 240px;
+	margin-top: 20px;
+}
+
+.upload_box {
+	
+}
+
+.up_file_type {
+	border-radius: 5px;
+	border: 1px solid #6699CC;
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #6699CC;
+	width: 80%;
+}
+
+.up_big_head {
+	width: 70%;
+	height: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #6699CC;
+	border-radius: 5px;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-top: 20px;
+	border: 0px;
+	cursor: pointer;
+}
+
+.basic_info {
+	margin-left: 50px;
+	height: 380px;
+	background-color: rgba(242,242,242,1);
+	border: none;
+}
+
+.basic_info_title {
+	height: 50px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #6699CC;
+	line-height: 60px;
+	text-align: center;
+}
+
+.basic_info_item {
+	float: left;
+	width: 100%;
+	height: 50px;
+	text-align: center;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.basic_info_item img {
+	float: left;
+}
+
+.basic_info_item p {
+	float: left;
+	margin-left: 5px;
+	color: #6699CC;
+	line-height: 30px;
+}
+
+.basic_info_item input {
+	float: left;
+	width: 150px;
+}
+
+.basic_info_item i {
+	float: left;
+	line-height: 30px;
+	font-size: 12px;
+	color: #999999;
+}
+
+.btn_password_visual {
+	float: left;
+	text-align: center;
+	height: 30px;
+}
+
+.btn_password_visual p {
+	font-size: 10px;
+	line-height: 16px;
+	margin-top: 5px;
+	border-radius: 4px;
+	width: 48px;
+	height: 16px;
+	margin-left: 5px;
+	color: #FFF;
+	background-color: #6699CC;
+	cursor: pointer;
+}
+
+.basic_info_save {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #6699CC;
+	border-radius: 5px;
+	line-height: 40px;
+	margin: 0 auto;
+	margin-top: 5px;
+	cursor: pointer;
+	border: 0px;
+}
+
+.receipt_info {
+	height: 380px;
+	background-color: rgba(242,242,242,1);
+	border: none;
+	float: right;
+}
+
+.receipt_info_title {
+	height: 50px;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #6699CC;
+	line-height: 50px;
+	text-align: center;
+}
+
+.receipt_info_item {
+	float: left;
+	width: 100%;
+	height: 80px;
+	text-align: center;
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.receipt_info_item img {
+	float: left;
+}
+
+.receipt_info_item p {
+	float: left;
+	font-size: 20px;
+	margin-left: 5px;
+	color: #6699CC;
+	line-height: 30px;
+	width: 100px;
+}
+
+.receipt_info_item textarea {
+	float: left;
+	width: 175px;
+	resize: none;
+}
+
+.receipt_info_item input {
+	float: left;
+	width: 175px;
+}
+
+.receipt_info_save {
+	width: 150px;
+	height: 40px;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #6699CC;
+	border-radius: 5px;
+	line-height: 40px;
+	margin: 0 auto ;
+	margin-top: 10px;
+	cursor: pointer;
+	border: 0px;
+}
+
+.collection_body_bar {
+	height: 30px;
+}
+
+.collection_body_bar_title {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 700;
+	color: #6699CC;
+}
+
+.collection_body_bar_classify {
+	padding: 0;
+	margin: 0;
+}
+
+.select_classify {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	text-align: center;
+	line-height: normal;
+	height: 30px;
+	width: 100px;
+}
+
+.collection_goods {
+	
+	margin-top: 20px;
+	/* display: flex;
+	flex-wrap: wrap;
+	overflow: scroll; */
+}
+
+.shopping_body_bar {
+	height: 30px;
+}
+
+
+
+.select_classify {
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	text-align: center;
+	line-height: normal;
+	height: 30px;
+	width: 100px;
+}
+
+.shopping_body_bar_search {
+	height: 30px;
+	margin-left: 30px;
+}
+
+.input_group_type {
+	height: 30px;
+}
+
+.shopping_body_receipt table {
+	margin: 0 auto;
+}
+
+.shopping_body_receipt table th{
+	text-align: center;
+}
+
+
+/*收藏中心box*/
+.p-favorate-goodslist-item{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-direction: column;
+	box-sizing: border-box;
+	width: 230px;
+	height: 300px;
+	margin: 0px;
+	margin-left: 32px;
+	margin-right: 32px;
+	margin-bottom: 20px;
+	background: #f2f2f2;
+	border:1px solid #f2f2f2;
+	cursor: pointer;
+	text-decoration:none;
+}
+
+.p-favorate-goodslist-item:hover{
+	border: 1px solid #6699cc;
+}
+
+.p-item-introduce{
+	box-sizing: border-box;
+	font-size: 10px;
+	padding:5px 5px 5px 5px;
+	height: 40px;
+	overflow: hidden;
+	color:#666666;
+	text-decoration:none;
+}
+
+.p-item-introduce:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.p-item-price{
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	width: 100%;
+	padding:5px 5px 5px 5px;
+	color:red;
+	justify-content: space-between;
+	text-decoration:none;
+}
+
+.p-favorate-goodslist-item img{
+	width: 100%;
+}
+
+.collection_btn_delete {
+	margin-left: 5px;
+}
+
+.foot{
+	box-sizing: border-box;
+	padding:0 100px 0 100px;
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 60px;
+	background: #6699cc;
+	justify-content: space-between;
+
